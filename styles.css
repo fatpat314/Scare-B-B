@@ -1,0 +1,25 @@
+body
+.hero-background-img{
+    position: relative;
+    background: rgba(0,0,0,0.1);
+    padding-top:100px;
+    padding-bottom: 200px;
+}
+
+.hero-background-img:after {
+    content: "";
+    position: absolute;
+    background-image: url("https://images.unsplash.com/photo-1476284338814-fc236162eae7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+    .jumbotron {
+        background: none
+    }
